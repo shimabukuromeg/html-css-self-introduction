@@ -52,16 +52,33 @@ body {
 }
 
 /* --------------------------------
+ * SNS
+ * -------------------------------- */
+.sns {
+  padding: 80px 30px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* --------------------------------
  * skills
  * -------------------------------- */
 .skills {
   padding: 80px 30px;
-  background-color: #151515;
+  /* background-color: #fff; */
+  /* color: #333; */
+}
+
+/* --------------------------------
+ * address
+ * -------------------------------- */
+.address {
+  padding: 80px 30px;
   color: #fff;
 }
 
 /* --------------------------------
- * interest
+ * Interest
  * -------------------------------- */
 .interest {
   padding: 80px 30px;
@@ -76,26 +93,14 @@ body {
   margin: 0;
   padding: 0;
 }
-.graph-cont {
-  width: calc(100% - 40px);
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-h1,
-h2,
-h3 {
-  text-align: center;
-  color: #34495e;
-}
 .bar {
   height: 30px;
   max-width: 800px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 20px auto;
   line-height: 30px;
   font-size: 16px;
   color: white;
-  padding: 0 0 0 10px;
+  /* padding: 0 0 0 40px; */
   position: relative;
 }
 .bar::before {
@@ -106,13 +111,12 @@ h3 {
   height: 30px;
   top: 0;
   z-index: -2;
-  background: #ecf0f1;
+  background: #151515;
 }
 .bar::after {
   content: "";
-  background: #2ecc71;
+  background: #0000ff;
   height: 30px;
-  transition: 0.7s;
   display: block;
   width: 100%;
   position: absolute;
@@ -121,30 +125,22 @@ h3 {
   z-index: -1;
 }
 .bar1::after {
-  max-width: 60%;
+  max-width: 70%;
 }
 .bar2::after {
-  max-width: 72%;
+  max-width: 60%;
 }
 .bar3::after {
-  max-width: 47%;
+  max-width: 50%;
 }
 .bar4::after {
-  max-width: 20%;
+  max-width: 40%;
 }
 
-.how-cont {
-  width: calc(100% - 40px);
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+a:visited {
+  color: inherit;
 }
-code {
-  padding: 5px;
-  background: #ecf0f1;
-  display: block;
-}
-pre {
-  padding: 0;
-  margin: 0;
+
+.content {
+  padding: 10px;
 }
